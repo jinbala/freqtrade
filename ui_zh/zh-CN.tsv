@@ -1,0 +1,923 @@
+Trade	交易
+Dashboard	总览
+Chart	图表
+Logs	日志
+Settings	设置
+Backtest	回测
+Analysis	分析
+Recursive Analysis	递归分析
+Recursive analysis	递归分析
+Lookahead Analysis	前瞻偏差分析
+Lookahead analysis	前瞻偏差分析
+Download Data	下载数据
+Pairlist Config	交易对列表配置
+Unlock Layout	解锁布局
+Lock Layout	锁定布局
+Reset Layout	重置布局
+Reset layout	重置布局
+Logout	退出登录
+Login	登录
+Bot not found	未找到交易机器人
+No bot selected	未选择交易机器人
+Bot name	机器人名称
+Bot Name	机器人名称
+Confirm dialog deactivated, Forced exits will be executed immediately. Be careful.	确认弹窗已关闭，强制平仓会立即执行，请谨慎操作。
+Confirm Dialog deactivated.	确认弹窗已关闭。
+Version:	版本：
+V:	版本：
+Login to your bot	登录交易机器人
+Enter your bot credentials to connect	输入机器人登录凭据以连接
+Freqtrade bot Login	登录 Freqtrade 机器人
+API Url	API 地址
+Username	用户名
+Password	密码
+This URL is already in use by another bot.	此地址已被另一个机器人使用。
+Please also check your bot's CORS configuration:	请同时检查机器人的跨域访问配置：
+Freqtrade CORS documentation	Freqtrade 跨域访问文档
+Connected to bot, however Login failed, Username or Password wrong.	已连接机器人，但登录失败，请检查用户名和密码。
+Login failed	登录失败
+login failed	登录失败
+Login info expired!	登录信息已过期！
+Login info expired, please login again.	登录信息已过期，请重新登录。
+Login again	重新登录
+No access token received	未收到访问令牌
+No new token received	未收到新的令牌
+Refresh token did not refresh.	令牌刷新失败。
+Refreshing token...	正在刷新令牌…
+Add new Bot	添加机器人
+Add new value	添加新值
+Add new	添加
+add bot	添加机器人
+Bot already present	机器人已存在
+Available bots	可用机器人
+Delete bot	删除机器人
+Edit bot	编辑机器人
+Needs login	需要登录
+Offline	离线
+Online	在线
+Logout confirmation	退出登录确认
+Logging out	正在退出登录
+Really remove (logout) from	确定移除并退出登录
+This action cannot be undone.	此操作无法撤销。
+Toggle all bots	切换全部机器人
+Click to select all bots	点击选择全部机器人
+Click to select all dry run bots	点击选择全部模拟盘机器人
+Click to select all live bots	点击选择全部实盘机器人
+Show this bot in Dashboard	在总览中显示此机器人
+Bot comparison	机器人对比
+Bot	机器人
+Bot:	机器人：
+Botid	机器人编号
+Auto Refresh all bots now	立即刷新全部机器人
+Auto Refresh for all bots	自动刷新全部机器人
+Auto refresh for	自动刷新
+Starting automatic refresh.	已开启自动刷新。
+Stopping automatic refresh.	已停止自动刷新。
+Auto Refresh	自动刷新
+Refresh	刷新
+Refresh chart	刷新图表
+Reload	重新加载
+Reload Logs	重新加载日志
+Reload Config	重新加载配置
+Reload configuration (including strategy)?	确定重新加载配置和策略吗？
+Reload Config - reloads configuration including strategy, resetting all settings changed on the fly.	重新加载配置和策略，并重置运行期间临时修改的设置。
+Error reloading.	重新加载失败。
+Bot not running...	机器人未运行…
+Bot seems to be offline... - retrying later	机器人似乎已离线，稍后重试。
+Bot started	机器人已启动
+Error starting bot.	启动机器人失败。
+Error stopping bot.	停止机器人失败。
+Error calling stopbuy.	暂停开仓失败。
+Start Trading	开始交易
+Start Trading mode	启动交易模式
+Stop Bot	停止机器人
+Stop the bot loop from running?	确定停止机器人的交易循环吗？
+Stop Trading - Also stops handling open trades.	停止交易，同时停止管理现有持仓。
+Pause - Stop Entering	暂停开仓
+Pause (StopBuy) - Freqtrade will continue to handle open trades, but will not enter new trades or increase position sizes.	暂停开仓：继续管理现有持仓，但不再开新仓或增加仓位。
+Freqtrade will continue to handle open trades, but will not enter new trades or increase position sizes. Really stop entering?	机器人将继续管理现有持仓，但不再开新仓或增加仓位。确定暂停开仓吗？
+Force enter - Immediately enter a trade at an optional price. Exits are then handled according to strategy rules.	强制开仓：可指定价格立即开仓，之后按策略规则管理平仓。
+Manually enter a new trade	手动创建新交易
+Force entering a trade	强制开仓
+Force exiting a trade	强制平仓
+Force exit trade	强制平仓
+Forceexit all	全部强制平仓
+ForceExit all	全部强制平仓
+Force exit all	全部强制平仓
+Really forceexit ALL trades?	确定强制平掉全部持仓吗？
+Forceexit	强制平仓
+Forceexit limit	限价平仓
+Forceexit market	市价平仓
+Forceexit partial	部分平仓
+Enter Position	开仓
+Exit Position	平仓
+Increase position	增加仓位
+Increase an existing position	增加现有仓位
+Increasing position for	增加仓位：
+Configure and confirm a forced trade exit	配置并确认强制平仓
+Price [optional]	价格（可选）
+Leverage to apply [optional]	杠杆倍数（可选）
+* Custom entry tag [optional]	自定义入场标签（可选）
+Only available with limit orders	仅限价单可用
+Order direction (Long or Short)	交易方向（做多或做空）
+Use the bot's configured stake amount	使用机器人配置的投入金额
+Unlimited stake	不限投入金额
+Minimum trade amount:	最少交易笔数：
+Amount in	金额单位：
+Stake-amount in	投入金额单位：
+Available:	可用：
+Exiting Trade #	正在平仓，交易编号：
+Really exit trade	确定平仓
+Really cancel open order for trade	确定取消交易的未成交订单
+Cancel open order	取消未成交订单
+Cancel open orders	取消未成交订单
+Failed to cancel open order	取消未成交订单失败
+Canceled open order for	已取消未成交订单：
+Failed to create exit order for	创建平仓订单失败：
+Exit order for	平仓订单：
+Order for	订单：
+order for	订单：
+created.	已创建。
+created	已创建
+order?	订单吗？
+Delete trade	删除交易
+Really delete trade	确定删除交易
+Deleted Trade	已删除交易
+Failed to delete trade	删除交易失败
+Reload trade	重新加载交易
+Failed to reload trade	重新加载交易失败
+Delete Lock	删除锁定
+Deleted Lock	已删除锁定
+Failed to delete lock	删除锁定失败
+This Freqtrade version does not support deleting locks.	此 Freqtrade 版本不支持删除锁定。
+Open trades	当前持仓
+Open Trades	当前持仓
+No open Trades.	暂无持仓。
+Currently no open trades.	当前没有持仓。
+Closed Trades	已平仓交易
+No closed trades so far.	暂无已平仓交易。
+Trade history	历史交易
+Trade Detail	交易详情
+Trade Navigation	交易导航
+Trade Id	交易编号
+Trade count	交易笔数
+Trade Count	交易笔数
+TradeCount:	交易笔数：
+Trade duration	持仓时长
+Trade durations	持仓时长
+Trades durations	持仓时长
+Trades	交易
+trades	笔交易
+Trades Log	交易日志
+Trades log	交易日志
+No trades to show...	暂无可显示的交易…
+No Trades to show.	暂无可显示的交易。
+No data available	暂无数据
+No custom data for this trade	此交易没有自定义数据
+Custom data for trade	交易自定义数据：
+Show custom data	显示自定义数据
+Reload Custom Data	刷新自定义数据
+Failed to get custom data for trade	读取交易自定义数据失败：
+Open date	开仓时间
+Close date	平仓时间
+Open Rate	开仓价格
+Open rate	开仓价格
+Close Rate	平仓价格
+Close rate	平仓价格
+Current Rate	当前价格
+Current rate	当前价格
+Min Rate	最低价格
+Max Rate	最高价格
+Close Reason	平仓原因
+Exit Reason	退出原因
+Reason	原因
+Direction	方向
+Amount	数量
+Stake	投入金额
+Total Stake	总投入金额
+Position value	仓位价值
+Current Value - In futures mode Collateral + PnL	当前价值：合约模式为保证金加盈亏
+Realized Profit	已实现收益
+Realized profit	已实现收益
+Current profit	当前收益
+Current Profit	当前收益
+Current profit %	当前收益率
+Current profit:	当前收益：
+Profit	收益
+Profit:	收益：
+- Profit:	－收益：
+Profit %	收益率
+Profit%	收益率
+Profit factor	盈亏比
+Profit Factor	盈亏比
+Profit factor:	盈亏比：
+Open Profit	未实现收益
+Closed Profit	已平仓收益
+Close Profit	平仓收益
+Total profit	累计收益
+Total Profit	累计收益
+Tot Profit	总收益
+Tot Profit %	总收益率
+Absolute profit	绝对收益
+Relative profit	收益率
+Abs $	收益金额
+Rel %	收益率
+Avg Profit	平均收益
+Avg Profit %	平均收益率
+Avg. Duration	平均持仓时长
+Total Trade count	总交易笔数
+Total stake amount	总投入金额
+Trading volume	交易额
+Trading volume:	交易额：
+Starting balance	初始余额
+Starting capital:	初始资金：
+Projected profit (incl. unrealized):	预估收益（含未实现盈亏）：
+Increase over initial capital of	相对初始资金的增长：
+Fees close	平仓手续费
+Open-Fees	开仓手续费
+Funding fees	资金费用
+Funding Rate	资金费率
+Interest rate	利率
+Liquidation Price	强平价格
+Positive funding_fees -> Trade has gained from fees. Negative funding_fees -> Trade had to pay the fees.	资金费用为正表示获得资金费，为负表示支付资金费。
+Initial Stoploss	初始止损价
+Current stoploss dist	距当前止损价
+Stoploss last updated	止损最近更新时间
+Stoploss	止损
+At risk	风险金额
+The amount at risk based on the stake amount. This is how much you would lose if the stoploss is hit.	按投入金额计算的风险金额，即触发止损时的预计亏损。
+Price	价格
+Filled	已成交
+remaining	剩余数量
+Entry tag	入场标签
+Enter tag	入场标签
+Enter-tag:	入场标签：
+Exit-Tag:	退出标签：
+Order-Tag:	订单标签：
+Order Price:	订单价格：
+Orders	订单
+OrderType	订单类型
+Type	类型
+Long	做多
+Short	做空
+Limit	限价
+Market	市价
+Spot	现货
+Futures	合约
+Futures/Margin	合约／杠杆
+Dry	模拟盘
+Dry-Run	模拟盘
+Live	实盘
+General	基本信息
+Performance	策略表现
+Balance	余额
+Account	账户
+Currency	币种
+Available	可用
+Total	合计
+Value	数值
+History	历史记录
+Wallet History	资金曲线
+Wallet history	资金曲线
+Wallet Balance	钱包余额
+(wallet balance)	（钱包余额）
+No historic wallet data available.	暂无历史钱包余额数据。
+You may need to update your freqtrade version to have historic wallet balance data available.	如需历史钱包余额数据，可能需要升级 Freqtrade。
+(Estimated value)	（预估价值）
+(mixed dry and live)	（包含模拟盘和实盘）
+(Demo)	（测试网）
+(open)	（持仓中）
+Currently owning	当前持有
+Pairs combined	交易对汇总
+Pairlist	交易对列表
+Pairs from template	模板中的交易对
+Pair Locks	交易对锁定
+Pairs	交易对
+pairs	个交易对
+Pair	交易对
+Pair Navigation	交易对导航
+No pair selected	未选择交易对
+Pair is empty	交易对不能为空
+Whitelist	白名单
+Whitelist Methods	白名单规则
+Blacklist	黑名单
+Blacklisted Pairs	黑名单交易对
+No Blacklist Available.	暂无黑名单。
+Add Pair to Blacklist	添加交易对到黑名单
+Add all pairs from Pairlist Config - requires the pairlist config to have ran first.	添加交易对配置中的全部交易对，需先运行交易对列表配置。
+Blacklist - Select (followed by a click on '-') to remove pairs	黑名单：选择交易对后点击减号移除
+Select pairs to delete pairs from your blacklist.	选择要从黑名单移除的交易对。
+If you expect to have pairs in your blacklist, please login and make sure the server is running.	若应有黑名单交易对，请登录并确认服务正在运行。
+List Unavailable. Please Login and make sure server is running.	列表不可用，请登录并确认服务正在运行。
+Evaluation returned 0 pairs	评估结果没有交易对
+Evaluate	评估
+Evaluate pairlist	评估交易对列表
+Evaluation failed	评估失败
+Configure pairlist for bot	配置机器人交易对列表
+Pairlist not found	未找到交易对列表
+The first entry in the pairlist must be a Generating pairlist, like StaticPairList or VolumePairList.	首条规则必须用于生成交易对，例如 StaticPairList 或 VolumePairList。
+Time Breakdown	分时统计
+Periodic breakdown	周期收益统计
+Breakdown	明细统计
+Timeframe	K 线周期
+Timeframe:	K 线周期：
+Timerange:	时间范围：
+Time Selection	时间选择
+Time	时间
+Date	日期
+Day	日
+Days	天
+Weeks	周
+Months	月
+Years	年
+Daily	每日
+Daily profit	每日收益
+Period	周期
+Until	截止时间
+Weekday	星期
+Hourly Profit	每小时收益
+Time period chart is only available when a single bot is selected and showing absolute profit.	周期收益图仅在选择单个机器人且显示绝对收益时可用。
+Timeframe with hour/minute precision	精确到时分的时间范围
+Timerange with hour/minute precision	精确到时分的时间范围
+Select the timerange with hour/minute precision (in UTC)	选择精确到时分的时间范围（UTC）
+Use time	包含时间
+Start Date	开始日期
+End Date	结束日期
+Start date (yyyy-mm-dd, UTC)	开始日期（年－月－日，UTC）
+End date (yyyy-mm-dd, UTC)	结束日期（年－月－日，UTC）
+Start time (UTC)	开始时间（UTC）
+End time (UTC)	结束时间（UTC）
+Clear start date	清除开始日期
+Clear end date	清除结束日期
+Clear start time	清除开始时间
+Clear end time	清除结束时间
+Multi Pane	综合面板
+Multi pair	多交易对
+Single trades	单笔交易
+Summary	汇总
+Results	结果
+Details	详情
+Entry	入场
+Exit	退出
+Entries	入场统计
+Exits	退出统计
+Mix Tag	组合标签
+Entry notifications	开仓成交通知
+Exit notifications	平仓成交通知
+Entry Cancel notifications	开仓撤单通知
+Exit Cancel notifications	平仓撤单通知
+Notification	通知
+Notification Settings	通知设置
+Entry fill:	开仓成交：
+Exit fill:	平仓成交：
+Entry order cancelled for	开仓订单已取消：
+Exit order cancelled for	平仓订单已取消：
+due to	原因：
+FreqUI Settings	FreqUI 设置
+UI settings	界面设置
+UI Version:	界面版本：
+UI	界面
+Toggle Night Mode	切换深色模式
+Background sync	后台同步
+Keep background sync running while other bots are selected.	切换到其他机器人时继续在后台同步。
+Lock dynamic layouts	锁定动态布局
+Lock dynamic layouts, so they cannot move anymore. Can also be set from the navbar at the top.	锁定后无法拖动动态布局，也可通过顶部导航栏切换。
+Reset dynamic layouts to how they were.	将动态布局恢复为默认状态。
+Layouts have been reset.	布局已重置。
+Show open trades in header	在顶部显示持仓数量
+Show pill in icon	在图标角标显示
+Show in title	在页面标题显示
+Don't show open trades in header	不在顶部显示持仓数量
+Decide if open trades should be visualized	选择是否在顶部显示持仓数量
+UTC Timezone	显示时区
+Select timezone (UTC is recommended as exchanges usually work in UTC)	选择显示时区；交易所原始数据和回测时间范围通常使用 UTC。
+Show Confirm Dialog for Trade Exits	强制平仓前显示确认弹窗
+Use confirmation dialogs when force-exiting a trade.	强制平仓时使用确认弹窗。
+This will also show	同时会在
+in the title bar.	标题栏中显示。
+Show Text on Multi Pane Buttons	在综合面板按钮上显示文字
+Show text on multi pane buttons. If disabled, only shows images.	关闭后，综合面板按钮仅显示图标。
+Chart settings	图表设置
+Chart scale Side	价格轴位置
+Left	左侧
+Right	右侧
+Should the scale be displayed on the right or left?	选择在左侧还是右侧显示价格轴。
+Use Heikin Ashi candles	使用平均 K 线
+Use Heikin Ashi candles in your charts	在图表中使用平均 K 线
+Heikin Ashi	平均 K 线
+Only request necessary columns	仅请求必要的数据列
+Can reduce the transfer size for large dataframes. May require additional calls if the plot config changes.	减少大型数据表的传输量。图表配置变化时可能需要额外请求。
+Default number of candles to display (defaults to 250)	默认显示的 K 线数量（默认 250 根）
+Candle Color Preference	K 线涨跌配色
+Green Up/Red Down	绿涨红跌
+Red Up/Green Down	红涨绿跌
+Candles	K 线
+Volume	成交量
+Show Chart Areas	显示图表区域标记
+Show Tags in Tooltips	在提示中显示标签
+Mark Area Z-Index	区域标记层级
+(defaults to 1 - Candlechart is at Z=2)	（默认 1；K 线图层级为 2）
+0 bars - 0%	0 根 K 线－0%
+bars (	根 K 线（
+Backtesting settings	回测设置
+Backtesting metrics	回测指标
+Select which metrics should be shown on a per pair / tag basis.	选择按交易对或标签展示的指标。
+Backtesting	回测
+Backtesting summary	回测汇总
+Backtesting parameters	回测参数
+Backtest-result for	回测结果：
+Backtest-result comparison	回测结果对比
+Available results:	可用结果：
+Backtest running:	回测进行中：
+Bot must be in webserver mode to enable Backtesting.	机器人必须处于网页服务模式才能运行回测。
+Load Results	加载结果
+Load backtest result	加载回测结果
+Load Historic results from disk. You can click on multiple results to load all of them into freqUI.	从磁盘加载历史回测结果，可同时选择多个结果。
+Run backtest	运行回测
+Start backtest	开始回测
+Stop Backtest	停止回测
+Reset Backtest	重置回测
+Analyze result	分析结果
+Compare results	对比结果
+Visualize summary	汇总图表
+Visualize result	结果图表
+No backtest selected	未选择回测结果
+Not loaded yet.	尚未加载。
+Load this Result	加载此结果
+Delete this Result from Disk	从磁盘删除此结果
+Unload this Result from UI.	从界面卸载此结果。
+Unload this Result from the UI (will remain on disk)	从界面卸载此结果（保留磁盘文件）
+Modify result notes.	修改结果备注。
+Set notes for backtest results	设置回测结果备注
+notes	备注
+Delete result	删除结果
+Delete this	删除
+from disk?	从磁盘删除吗？
+Backtest failed:	回测失败：
+Backtest wallet change not available	回测钱包余额变化不可用
+Cache Backtest results:	缓存回测结果：
+Enable Protections:	启用保护规则：
+Enable FreqAI:	启用 FreqAI：
+FreqAI identifier:	FreqAI 标识：
+FreqAI Model:	FreqAI 模型：
+Assumes freqAI configuration is setup in the configuration, and the strategy is a freqAI strategy. Will fail if that's not the case.	需先配置 FreqAI，且策略须支持 FreqAI，否则运行会失败。
+Detail Timeframe:	精细 K 线周期：
+Detail timeframe, to simulate intra-candle results. Not setting this will not use this functionality.	使用更小的 K 线周期模拟单根 K 线内的交易；留空则不启用。
+Use config default	使用配置默认值
+Use strategy default	使用策略默认值
+Use custom timerange	自定义时间范围
+Use Live Data	使用实时行情
+Use live data from the exchange. Only use if you don't have data downloaded locally.	从交易所读取实时数据，仅在本地未下载数据时使用。
+Use Pairs from Pairlist Config	使用交易对列表配置
+Current Exchange:	当前交易所：
+Strategy	策略
+Strategy:	策略：
+Strategy settings	策略设置
+Strategy parameters	策略参数
+This strategy has no parameters.	此策略没有可调整参数。
+No strategy selected	未选择策略
+No strategy selected, can't load plot config.	未选择策略，无法加载图表配置。
+Graph will always show the latest values for the selected strategy.	图表始终显示所选策略的最新数据。
+Starting capital	初始资金
+Stake amount	投入金额
+Stake amount:	每笔投入金额：
+Stake currency:	计价币种：
+Max open trades:	最大持仓笔数：
+TradeCount	交易笔数
+Results per pair	按交易对统计
+Results per Enter tag	按入场标签统计
+Results per Exit reason	按退出原因统计
+Results Mixed Tag	按组合标签统计
+Winning trades	盈利交易
+Winning Trades	盈利交易
+Losing trades	亏损交易
+Losing Trades	亏损交易
+Wins	盈利
+Losses	亏损
+Draws	持平
+Win Rate	胜率
+Winrate	胜率
+Win / Loss	盈利／亏损
+W/L	盈／亏
+Count	笔数
+All trades	全部交易
+All Trades	全部交易
+ROI all trades	全部交易收益
+ROI closed trades	已平仓收益
+Cumulative Profit	累计收益
+Profit distribution	收益分布
+Profit Distribution	收益分布
+Trade durations	持仓时长
+Best performing	最佳表现
+Market change %	市场涨跌幅
+CAGR	年化增长率
+Cagr	年化增长率
+Calmar	卡玛比率
+Sharpe	夏普比率
+Sortino	索提诺比率
+SQN	系统质量指数
+Expectancy	期望收益
+Expectancy (ratio)	期望收益（比率）
+Mean profit p-value	平均收益 p 值
+Current Drawdown	当前回撤
+Max Drawdown	最大回撤
+Max Drawdown abs	最大回撤金额
+Drawdown duration	回撤持续时间
+Drawdown start	回撤开始
+Drawdown end	回撤结束
+Profit at Drawdown start | end	回撤起止收益
+Profit over time	收益时间曲线
+Shown metrics:	显示指标：
+Metrics	指标
+Metric	指标
+Capture start	记录开始
+Backtest Time	回测时间
+Long entry	做多入场
+Long exit	做多退出
+Short entry	做空入场
+Short exit	做空退出
+Long entries:	做多入场次数：
+Long exit:	做多退出次数：
+Short entries:	做空入场次数：
+Short exits:	做空退出次数：
+Long entry signals	做多入场信号
+Long exit signals	做多退出信号
+Downloading Data	正在下载数据
+Start Download	开始下载
+Days to download	下载天数
+Days to download:	下载天数：
+Select Pairs	选择交易对
+Select pairs to plot	选择要绘制的交易对
+Select timeframes	选择 K 线周期
+Select Candle Types	选择 K 线类型
+Candle type selection for data download	下载数据的 K 线类型选择
+When no candle-type is selected, freqtrade will download the necessary candle types for regular operation automatically.	未选择 K 线类型时，Freqtrade 会自动下载正常运行所需的数据。
+Advanced options	高级选项
+Advanced options (Erase data, Download trades, and Custom Exchange settings) will only be applied when this section is expanded.	仅在展开此区域时，才应用删除数据、下载逐笔成交和自定义交易所等高级选项。
+Custom Exchange	自定义交易所
+Erase existing data	清除现有数据
+Prepend data when downloading	下载更早的数据并追加到开头
+Download Trades instead of OHLCV data	下载逐笔成交，替代 K 线数据
+All USDT Pairs	全部 USDT 交易对
+All USDT Futures Pairs	全部 USDT 合约交易对
+Analysis Result	分析结果
+Start lookahead analysis	开始前瞻偏差分析
+Start recursive analysis	开始递归分析
+Allow limit orders	允许限价单
+Allow limit orders in lookahead analysis (could cause false positives in lookahead analysis results).	在前瞻偏差分析中允许限价单，可能产生误报。
+Checks your strategy for lookahead bias by comparing signals generated on the full dataset against signals generated on progressively shorter timeranges. Indicators or signals that change depending on future data indicate a lookahead bias that will make backtest results unreliable.	比较完整数据与逐步缩短的时间范围生成的信号，检查策略是否使用未来数据。若指标或信号随未来数据变化，则存在前瞻偏差，回测结果不可靠。
+Checks your strategy's indicators for recursive formula issues by comparing indicator values calculated with different startup candle counts. Indicators that show a difference are likely affected by the amount of startup data and may produce inconsistent results between backtesting and dry/live runs.	比较不同预热 K 线数量下的指标值，检查递归计算问题。出现差异的指标可能受预热数据量影响，导致回测与模拟盘或实盘结果不一致。
+Minimum number of trades the analysis should run for before evaluating bias.	评估偏差前至少需要执行的交易笔数。
+Targeted trade amount:	目标交易笔数：
+Targeted number of trades the analysis tries to reach. Must be greater than or equal to the minimum trade amount.	分析期望达到的交易笔数，必须大于或等于最少交易笔数。
+Startup candle counts:	预热 K 线数量：
+Comma separated list of startup candle counts to compare against each other. Leave empty to use the backend defaults.	输入以逗号分隔的预热 K 线数量进行比较，留空使用后端默认值。
+e.g. 199,399,499,999,1999	例如：199,399,499,999,1999
+Recommended startup candle count:	建议预热 K 线数量：
+No recursive formula issues detected	未发现递归计算问题
+None of the strategy indicators changed when varying the startup candle count.	改变预热 K 线数量时，策略指标未出现变化。
+indicator(s) affected by startup candle count	个指标受预热 K 线数量影响
+The values below show the percentage difference compared to the analysis with the most startup candles. Non-zero values indicate a recursive formula issue.	下方数值表示相对于最多预热 K 线数量分析结果的百分比差异，非零值表示存在递归计算问题。
+No lookahead bias detected	未发现前瞻偏差
+Lookahead bias detected	发现前瞻偏差
+The strategy produced consistent signals across the analyzed timeranges.	策略在各分析时间范围内产生了一致的信号。
+The strategy produced different signals depending on the available data. Backtest results for this strategy are likely unreliable.	策略随可用数据变化而产生不同信号，其回测结果可能不可靠。
+Failed to run lookahead analysis	运行前瞻偏差分析失败
+Failed to run recursive analysis	运行递归分析失败
+Lookahead analysis failed	前瞻偏差分析失败
+Recursive analysis failed	递归分析失败
+Biased indicators	存在偏差的指标
+Biased entry signals	存在偏差的入场信号
+Biased exit signals	存在偏差的退出信号
+Has bias	存在偏差
+Total signals	总信号数
+Indicator	指标
+Advanced daily metrics	高级每日指标
+Delete background jobs	删除后台任务
+All non-running background jobs cleared	已清除全部未运行的后台任务
+Failed to clear background jobs	清除后台任务失败
+Failed to get background job status	读取后台任务状态失败
+Plot Configurator	图表配置
+Plot configurator	图表配置
+Configure chart plot indicators and subplots	配置图表指标和子图
+These settings only apply to the chart view and do not affect the bot's actual configuration or behavior.	此处设置仅影响图表显示，不会改变机器人的实际配置或交易行为。
+Plot config name	图表配置名称
+plot configuration	图表配置
+Show configuration for easy transfer to a strategy	显示配置，便于复制到策略中
+Load configuration from text box below	从下方文本框加载配置
+Load from string below	从下方文本加载
+Load indicator config from template	从模板加载指标配置
+From strategy	从策略加载
+From template	从模板加载
+Copy from:	复制来源：
+Apply template	应用模板
+Apply Template	应用模板
+Use template	使用模板
+Use Template	使用模板
+Select Template	选择模板
+Select indicator to add	选择要添加的指标
+Add indicator	添加指标
+Add indicator to plot	向图表添加指标
+Remove indicator	移除指标
+Remove indicator to plot	从图表移除指标
+Indicators in this plot	此图中的指标
+Target Plot	目标图表
+Area chart - Fill to (leave empty for line chart)	面积图填充目标（留空显示折线图）
+Scatter symbol size	散点标记大小
+Re-map indicators	重新映射指标
+Color	颜色
+Sort by:	排序：
+Bins	分组数量
+Invalid configuration	配置无效
+Failed to load Plot configuration from Strategy.	从策略加载图表配置失败。
+Failed to load data	加载数据失败
+Loading...	正在加载…
+This is taking longer than expected ... Hold on ...	耗时比预期更长，请稍候…
+No metadata found for strategy	未找到策略元数据：
+for main plot not found in columns.	主图指标不在数据列中。
+not available, but selected.	已选择，但当前不可用。
+was not found in the columns.	未在数据列中找到。
+not found! could not remove	未找到，无法移除
+from MainPlot	从主图中
+Open since:	开仓时间：
+Enter-tag:	入场标签：
+Order-Tag:	订单标签：
+from blacklist.	从黑名单中。
+to blacklist	到黑名单
+to Blacklist:	到黑名单：
+from Blacklist:	从黑名单：
+Error while adding pair	添加交易对失败：
+Error while removing pair	移除交易对失败：
+Error occured entering: '	开仓时发生错误：
+Error occured while adding pairs to Blacklist: '	添加交易对到黑名单时发生错误：
+Error occured while removing pairs from Blacklist: '	从黑名单移除交易对时发生错误：
+Deleting pairs:	正在删除交易对：
+Deleting	正在删除
+Adding	正在添加
+Removing	正在移除
+added.	已添加。
+removed.	已移除。
+Delete this value.	删除此值。
+Edit this	编辑
+Duplicate	复制
+(copy)	（副本）
+element	项
+Index	序号
+Name	名称
+Setting	设置项
+Config	配置
+Confirmation	确认
+Confirm	确认
+Cancel	取消
+Abort	终止
+Back	返回
+Add	添加
+Close	关闭
+Close Actions menu	关闭操作菜单
+Actions	操作
+Actions for	操作对象：
+Save	保存
+Save configuration	保存配置
+Reset	重置
+Reset to last saved configuration	恢复上次保存的配置
+Submit	提交
+Copy	复制
+Copied!	已复制！
+Filter	筛选
+Filter results	筛选结果
+Search...	搜索…
+Select items	选择项目
+Show	显示
+Hide	隐藏
+Scroll to bottom	滚动到底部
+All	全部
+Yes	是
+No	否
+Ok	确定
+Unknown	未知
+Supported	支持
+Unsupported	不支持
+N/A	暂无
+N/A%	暂无
+Zero	零
+OTHER	其他
+Spinning	正在处理
+updating ...	正在更新…
+Timeout exceeded	请求超时
+Error fetching history	读取历史记录失败
+First Trade opened	首次开仓时间
+Latest Trade opened	最近开仓时间
+Bot start date:	机器人启动时间：
+First trade opened:	首次开仓时间：
+Last trade opened:	最近开仓时间：
+Running Freqtrade	正在运行 Freqtrade
+Running with	运行参数：
+markets, with Strategy	市场，使用策略
+Currently	当前状态：
+force entry:	强制开仓：
+Stoploss on exchange is	交易所止损：
+Trades, with an average duration of	笔交易，平均持仓时长为
+. Best pair:	。最佳交易对：
+) in	），共
+Welcome to the	欢迎使用
+This page allows you to control your trading bot.	在此管理您的交易机器人。
+If you need any help, please refer to the	如需帮助，请参阅
+Freqtrade Documentation	Freqtrade 文档
+Have fun -	祝交易顺利——
+wishes you the Freqtrade team	Freqtrade 团队
+404 Error.	404 页面不存在。
+Ahhhhhhhh! The page you are looking for does not exist.	您要访问的页面不存在。
+Don't worry, you can head back to	您可以返回
+the main page	首页
+Please verify that the bot is running, the Bot API is enabled and the URL is reachable. You can verify this by navigating to	请确认机器人正在运行、API 已启用且地址可以访问。可打开以下地址验证：
+Long entry signals	做多入场信号
+Can Run Backtests	支持运行回测
+Delete backtest endpoints	支持删除回测任务
+Force enter - set entry tag, Force Exit partial	强制开仓标签与部分平仓
+Force enter short position	强制做空开仓
+Force exit accepting price parameter	指定价格强制平仓
+Force exit with parameters	带参数强制平仓
+FreqAI support for backtesting	回测支持 FreqAI
+Live chart data support in webserver mode	网页服务模式支持实时图表
+Load plot configuration from backend	从后端加载图表配置
+Modern pair candles API	新版交易对 K 线接口
+Modify bot pairlist	修改机器人交易对列表
+new entries/exits/mix_tags endpoints	入场／退出／组合标签统计接口
+Profit all endpoint	全部收益接口
+Provides bot balance	支持机器人余额
+Download data View	数据下载视图
+Wallet change data endpoint	钱包变化数据接口
+WebSocket connection support	支持实时推送连接
+WebSocket new candle datatype	实时推送支持新 K 线类型
+Weekly/monthly stats	周／月统计
+Premium Index	溢价指数
+Mark	标记价格
+enabled	已启用
+disabled	已禁用
+long	做多
+short	做空
+spot	现货
+futures	合约
+margin	杠杆
+cross	全仓
+isolated	逐仓
+running	运行中
+stopped	已停止
+paused	已暂停
+open	持仓中
+closed	已平仓
+pending	等待中
+completed	已完成
+failed	失败
+cancelled	已取消
+canceled	已取消
+roi	止盈
+stop_loss	止损
+trailing_stop_loss	移动止损
+exit_signal	策略退出信号
+force_exit	强制平仓
+emergency_exit	紧急平仓
+stoploss_on_exchange	交易所止损
+ema20_cross_above_ema50	EMA20 上穿 EMA50
+ema20_cross_below_ema50	EMA20 下穿 EMA50
+, filled	，已成交
+(Backtest)	（回测）
+(in	（单位：
+(Pair	（交易对：
+(WR:	（胜率：
+) using a	），使用
+[optional]	（可选）
+<-- not available in this chart	← 此图中不可用
+</div> <div>Max:	</div> <div>最大值：
+</div> <div>Median:	</div> <div>中位数：
+</div> <div>Min:	</div> <div>最小值：
+</div> <div>Q1:	</div> <div>下四分位数：
+</div> <div>Q3:	</div> <div>上四分位数：
+<br/> Profit	<br/> 收益
+Profit:</span> <span style="margin-left: 2em"> <strong>	收益：</span> <span style="margin-left: 2em"> <strong>
+Trade count:</span> <span style="margin-left: 2em"><strong>	交易笔数：</span> <span style="margin-left: 2em"><strong>
+Profits for	收益范围：
+adjustment	仓位调整
+at	价格：
+bot	机器人
+Filename	文件名
+for	用于
+Freqtrade logo	Freqtrade 标志
+from	从
+In	在
+in	在
+on	交易所：
+nothing to delete	没有可删除的项目
+pair or timeframe not specified	未指定交易对或 K 线周期
+pair or timeframe or timerange not specified	未指定交易对、K 线周期或时间范围
+since	自
+to	至
+Space	参数空间
+Enter Tag	入场标签
+Exit Tag	退出标签
+success	成功
+queued	排队中
+starting	启动中
+reload_config	正在重新加载配置
+pairlist	交易对列表
+download_data	数据下载
+lookahead_analysis	前瞻偏差分析
+recursive_analysis	递归分析
+limit	限价
+market	市价
+buy	买入
+sell	卖出
+true	是
+false	否
+close	收盘价
+highest	最高价
+lowest	最低价
+1m	1 分钟
+3m	3 分钟
+5m	5 分钟
+15m	15 分钟
+30m	30 分钟
+1h	1 小时
+2h	2 小时
+4h	4 小时
+6h	6 小时
+8h	8 小时
+12h	12 小时
+1d	1 天
+3d	3 天
+1w	1 周
+2w	2 周
+1M	1 个月
+1y	1 年
+Long / Short	做多／做空
+Total profit Long	做多总收益
+Total profit Short	做空总收益
+System Quality Number (SQN)	系统质量指数
+Total trades / Daily Avg Trades	总交易笔数／日均交易笔数
+Best day	最佳单日收益
+Worst day	最差单日收益
+Win/Draw/Loss	盈利／持平／亏损
+Days win/draw/loss	盈利／持平／亏损天数
+Min. Duration winners	盈利交易最短持仓时间
+Avg. Duration winners	盈利交易平均持仓时间
+Max. Duration winners	盈利交易最长持仓时间
+Min. Duration Losers	亏损交易最短持仓时间
+Avg. Duration Losers	亏损交易平均持仓时间
+Max. Duration Losers	亏损交易最长持仓时间
+Max Consecutive Wins / Loss	最大连续盈利／亏损笔数
+Rejected entry signals	被拒绝的入场信号
+Entry/Exit timeouts	入场／退出超时次数
+Canceled Trade Entries	取消的入场交易
+Canceled Entry Orders	取消的入场订单
+Replaced Entry Orders	替换的入场订单
+Min/Max balance (closed trades)	最低／最高余额（已平仓交易）
+Min/Max balance (wallet balance)	最低／最高钱包余额
+Market change	市场涨跌幅
+Max Drawdown (Account)	账户最大回撤
+Max Drawdown ABS	最大回撤金额
+Best Pair	最佳交易对
+Worst Pair	最差交易对
+Best single Trade	最佳单笔交易
+Worst single Trade	最差单笔交易
+Trading Mode	交易模式
+Backtesting from	回测开始时间
+Backtesting to	回测结束时间
+BT execution time	回测执行耗时
+Max open trades	最大持仓笔数
+Timeframe Detail	精细 K 线周期
+Timerange	时间范围
+Trailing Stoploss	移动止损
+Trail only when offset is reached	仅在达到偏移量后启用移动止损
+Trailing Stop positive	移动止损正向阈值
+Trailing stop positive offset	移动止损正向偏移量
+Custom Stoploss	自定义止损
+ROI	止盈规则
+Use Exit Signal	使用退出信号
+Exit profit only	仅盈利时退出
+Exit profit offset	退出收益偏移量
+Enable protections	启用保护规则
+Final balance	最终余额
+Avg. stake amount	平均每笔投入金额
+Total trade volume	总成交金额
+Cross Futures	全仓合约
+Isolated Futures	逐仓合约
+L-	多－
+S-	空－
+ID	编号
+h	时
+m	分
+Backtest start	回测开始
+Backtest end	回测结束
+Wallet-based Metrics	钱包指标
+Min/Max balance dates (wallet balance)	最低／最高钱包余额时间
+Sharpe (daily wallet balance)	夏普比率（每日钱包余额）
+Sortino (daily wallet balance)	索提诺比率（每日钱包余额）
+Calmar (daily wallet balance)	卡玛比率（每日钱包余额）
+--- Wallet Balance metrics ---	——钱包余额指标——
+(ratio)	（比率）
+API URL is required.	请输入 API 地址。
+Name and Password are required.	请输入用户名和密码。
+Invalid Password	密码无效
+First trade	首次交易
+First trade Pair	首次交易对
+Max Drawdown dates (wallet balance)	最大回撤起止时间（钱包余额）

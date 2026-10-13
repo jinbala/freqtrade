@@ -108,6 +108,10 @@ target/
 .python-version
 
 .env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
 .venv
 .idea
 .vscode
@@ -122,3 +126,28 @@ target/
 !config_examples/config_freqai.example.json
 
 docker-compose-*.yml
+
+# Private local credentials and runtime exports
+*.local.json
+*.local.yaml
+*.local.yml
+*.private.json
+*.private.yaml
+*.private.yml
+secrets/
+.secrets/
+.credentials/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.pid
+*.har
