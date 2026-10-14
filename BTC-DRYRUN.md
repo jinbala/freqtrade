@@ -2,6 +2,8 @@
 
 本目录使用 Windows PowerShell + `.venv` 运行当前仓库的 Freqtrade。无需 Docker 或交易所 API Key。
 
+了解全部功能、源码位置和开发迭代流程，请阅读 [项目导航与迭代指南](PROJECT-GUIDE.zh-CN.md)。
+
 **原版 FreqUI 已汉化：http://127.0.0.1:8080/**。保留原界面及其功能，导航、登录、设置、交易、回测和弹窗等使用简体中文。更新后按 Ctrl+F5 强制刷新。用户名为 `freqtrader`，密码见本地配置中的 `api_server.password`。汉化重建与英文恢复方式见 [原界面汉化说明](ui_zh/README.md)。
 
 | 项目 | 配置 |
